@@ -7,8 +7,6 @@ import pytest
 
 from click.testing import CliRunner
 
-from tusharedeps import tusharedeps
-
 
 def test_empty():
     pass
