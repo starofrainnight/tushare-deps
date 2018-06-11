@@ -9,24 +9,28 @@ with open('README.rst') as readme_file, open('HISTORY.rst') as history_file:
     long_description = (readme_file.read() + "\n\n" + history_file.read())
 
 install_requires = [
-    'click>=6.0',
-    # TODO: put package requirements here
+    # Because tushare library does not setup correct library dependences, so
+    # we have to add library dependences here for complete the library search
+    # behavior.
+    'lxml',
+    'pandas',
+    'beautifulsoup4',
+    'requests',
+    'tushare',
 ]
 
 setup_requires = [
     'pytest-runner',
-    # TODO(starofrainnight): put setup requirements (distutils extensions, etc.) here
 ]
 
 tests_requires = [
     'pytest',
-    # TODO: put package test requirements here
 ]
 
 setup(
     name='tushare-deps',
     version='0.0.1',
-    description="A library just prepare dependences for tushare library",
+    description="A library prepare the dependences for tushare library",
     long_description=long_description,
     author="Hong-She Liang",
     author_email='starofrainnight@gmail.com',
