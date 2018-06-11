@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 with open('README.rst') as readme_file, open('HISTORY.rst') as history_file:
     long_description = (readme_file.read() + "\n\n" + history_file.read())
 
-install_requires = [
+tushare_requires = [
     # Because tushare library does not setup correct library dependences, so
     # we have to add library dependences here for complete the library search
     # behavior.
@@ -16,10 +16,15 @@ install_requires = [
     'pandas',
     'beautifulsoup4',
     'requests',
+]
+
+install_requires = [
+    *tushare_requires,
     'tushare',
 ]
 
 setup_requires = [
+    *tushare_requires,
     'pytest-runner',
 ]
 
