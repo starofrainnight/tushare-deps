@@ -3,6 +3,11 @@
 
 """The setup script."""
 
+try:
+    from pip import main as pipmain
+except:
+    from pip._internal import main as pipmain
+
 from setuptools import setup, find_packages
 
 with open('README.rst') as readme_file, open('HISTORY.rst') as history_file:
@@ -18,13 +23,16 @@ tushare_requires = [
     'requests',
 ]
 
+# What the hell is tushare doing?? Reference itself in setup.py ??
+# We have to force requirements installed before requires tushare
+for require in tushare_requires:
+    pipmain(["install", require])
+
 install_requires = [
-    *tushare_requires,
     'tushare',
 ]
 
 setup_requires = [
-    *tushare_requires,
     'pytest-runner',
 ]
 
