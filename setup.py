@@ -38,6 +38,7 @@ setup_requires = [
 
 tests_requires = [
     'pytest',
+    'click',
 ]
 
 setup(
