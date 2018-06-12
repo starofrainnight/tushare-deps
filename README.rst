@@ -21,10 +21,11 @@ Preface
 ---------
 
 tushare is an utility for crawling historical and Real-time Quotes data of
-China stocks. But it's not setting install dependences correctly. If we try
-install tushare in a virtualenv environment through pypi in python3.6 on Ubuntu
-18.04, we will found only tushare installed but without any dependences
-installed. So we have to install those libraries manually, that's so annoying.
+China stocks. It's great but not setting install dependences correctly. We will
+found only tushare installed but without any dependences installed if we try
+install tushare in a virtualenv environment by pip in python3.6 on Ubuntu 18.04.
+
+That's so annoying to install those libraries manually.
 
 Yes, fix this problem in tushare is more simple than just create a new library,
 but there have some PRs (#452, #264) related not been pay attention for a long
