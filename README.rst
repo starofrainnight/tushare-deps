@@ -9,7 +9,7 @@ tushare-deps
 .. image:: https://img.shields.io/travis/starofrainnight/tusharedeps.svg
         :target: https://travis-ci.org/starofrainnight/tusharedeps
 
-.. image:: https://ci.appveyor.com/api/projects/status/pj44xi9qbh6uwc0w?svg=true
+.. image:: https://ci.appveyor.com/api/projects/status/github/starofrainnight/tusharedeps?svg=true
         :target: https://ci.appveyor.com/project/starofrainnight/tusharedeps
 
 A library prepare the dependences for tushare library
