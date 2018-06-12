@@ -3,8 +3,8 @@ tushare-deps
 ============
 
 
-.. image:: https://img.shields.io/pypi/v/tusharedeps.svg
-        :target: https://pypi.python.org/pypi/tusharedeps
+.. image:: https://img.shields.io/pypi/v/tushare-deps.svg
+        :target: https://pypi.python.org/pypi/tushare-deps
 
 .. image:: https://img.shields.io/travis/starofrainnight/tusharedeps.svg
         :target: https://travis-ci.org/starofrainnight/tusharedeps
