@@ -54,7 +54,7 @@ setup(
     install_requires=install_requires,
     license="Apache Software License",
     zip_safe=False,
-    keywords='tusharedeps',
+    keywords='tushare',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
