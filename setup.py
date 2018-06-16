@@ -48,7 +48,7 @@ setup(
     long_description=long_description,
     author="Hong-She Liang",
     author_email='starofrainnight@gmail.com',
-    url='https://github.com/starofrainnight/tusharedeps',
+    url='https://github.com/starofrainnight/tushare-deps',
     packages=find_packages(),
     include_package_data=True,
     install_requires=install_requires,

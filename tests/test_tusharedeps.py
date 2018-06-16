@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Tests for `tusharedeps` package."""
+"""Tests for `tushare-deps` package."""
 
 import pytest
 

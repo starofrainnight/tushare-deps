@@ -6,16 +6,16 @@ tushare-deps
 .. image:: https://img.shields.io/pypi/v/tushare-deps.svg
         :target: https://pypi.python.org/pypi/tushare-deps
 
-.. image:: https://img.shields.io/travis/starofrainnight/tusharedeps.svg
-        :target: https://travis-ci.org/starofrainnight/tusharedeps
+.. image:: https://img.shields.io/travis/starofrainnight/tushare-deps.svg
+        :target: https://travis-ci.org/starofrainnight/tushare-deps
 
-.. image:: https://ci.appveyor.com/api/projects/status/github/starofrainnight/tusharedeps?svg=true
-        :target: https://ci.appveyor.com/project/starofrainnight/tusharedeps
+.. image:: https://ci.appveyor.com/api/projects/status/github/starofrainnight/tushare-deps?svg=true
+        :target: https://ci.appveyor.com/project/starofrainnight/tushare-deps
 
 A library prepare the dependences for tushare library
 
 * License: Apache-2.0
-* Documentation: https://tusharedeps.readthedocs.io.
+* Documentation: https://tushare-deps.readthedocs.io.
 
 Preface
 ---------

@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-"""Unit test package for tusharedeps."""
+"""Unit test package for tushare-deps."""
